@@ -41,7 +41,7 @@ A programação funcional busca a transparência referencial, permitindo substit
 
 O paradigma de programação funcional com React refere-se à aplicação de conceitos e práticas da programação funcional ao desenvolver aplicações usando o framework para Web. Embora React não seja um framework com linguagem de programação funcional pura, ele incorpora e encoraja certos princípios dessa abordagem.
 
-O projeto tem como base as definições de programação com o paradigma funcional, sendo os principais conceitos aplicados: <a href="">Funções Anônimas (Lambda)</a>, <a href="">First-Class e Higher-Order Functions</a>, <a href="">e Composição de Funções</a>.
+O projeto tem como base as definições de programação com o paradigma funcional, sendo os principais conceitos aplicados: <a href="https://medium.com/@axthebaldi/lambda-calculus-com-javascript-5db88c3b45a">Funções Anônimas (Lambda)</a>, <a href="https://www.educative.io/answers/what-are-first-class-vs-higher-order-functions-in-javascript">First-Class e Higher-Order Functions</a>, <a href="https://rfcosta85.medium.com/descobrindo-javascript-composição-de-funções-2b658a639fd8">e Composição de Funções</a>.
 
 ## O que seria React?
 
@@ -123,7 +123,7 @@ As páginas são servidas a partir do domínio username.github.io ou de um domí
 Projetos simples, que contenham apenas Javascript, HTML e CSS, podem ser publicados com apenas o setup feito com o repositório.
 
 ```
-Branch -> Settings -> Pages -> Deploy from a branch
+Branch -> Settings -> Pages -> Depoly from a branch
 ```
 
 ### Setup para aplicação React
@@ -206,6 +206,12 @@ Além disso, o código inclui uma configuração para o GitHub Pages, permitindo
 Para informações detalhadas sobre o setup e implementação, consulte as referências fornecidas.
 
 #### Links e vídeos
+
+<a href="https://medium.com/@axthebaldi/lambda-calculus-com-javascript-5db88c3b45a">_Lambda Calculus com JavaScript_</a> by Alexandre Thebaldi
+
+<a href="https://www.educative.io/answers/what-are-first-class-vs-higher-order-functions-in-javascript">_What are first-class vs higher-order functions in JavaScript?_</a> by Chibueze Sam-Obisike
+
+<a href="https://rfcosta85.medium.com/descobrindo-javascript-composição-de-funções-2b658a639fd8">_Descobrindo JavaScript: Composição de Funções_</a> by Rodrigo Fernandes da Costa
 
 <a href="https://www.theserverside.com/tip/Binary-and-hexadecimal-numbers-explained-for-developers">_Binary and hexadecimal numbers explained for developers_</a> by Bob Reselman
 
