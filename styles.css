@@ -20,7 +20,7 @@ body {
 }
 
 .container h1 {
-  font-size: 50px;
+  font-size: 40px;
   font-family: "Paytone One", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -34,7 +34,7 @@ form {
 
 form select {
   border: 1px solid rgba(252, 252, 252, 0.4);
-  background-color: rgba(252, 252, 252, 0.2);
+  background-color: #50a3a2;
   width: 250px;
   border-radius: 3px;
   padding: 10px 15px;
@@ -42,13 +42,13 @@ form select {
   display: block;
   text-align: center;
   font-size: 18px;
-  color: rgba(91, 88, 88, 0.797);
+  color: white;
   font-weight: 300;
   transition: color 0.3s; background-color: 0.3s;
 }
 
 form select:focus {
-  color: rgba(91, 88, 88, 0.797);
+  color: rgba(252, 252, 252, 0.2);
 
 }
 
@@ -57,8 +57,8 @@ form select option:hover {
 }
 
 form input {
-  border: 1px solid rgba(252, 252, 252, 0.4);
-  background-color: rgba(97, 93, 93, 0.801);
+  border: 1px solid rgba(255, 255, 255, 0.703);
+  background-color: #50a3a2;
   width: 250px;
   border-radius: 3px;
   padding: 10px 15px;
@@ -85,6 +85,7 @@ form button {
 form button:hover {
   background-color: #30605f;
   color: white;
+  transition: color 0.3s; background-color: 0.3s;
 }
 
 #svg {
