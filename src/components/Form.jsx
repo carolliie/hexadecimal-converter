@@ -41,7 +41,7 @@ function Form() {
 
   return (
     <div>
-      <h1 className="title">Conversor Hexadecimal/Binário</h1>
+      <h1 class="title">Conversor Hexadecimal/Binário</h1>
       <form className="form">
         <select value={selectedOption} onChange={handleOptionChange}>
           <option value="Binario">Binário</option>
