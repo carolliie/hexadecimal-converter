@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/hexadecimal-converter/static/js/main.c4c8109c.js",
+    "main.js": "/hexadecimal-converter/static/js/main.ea96c821.js",
     "index.html": "/hexadecimal-converter/index.html",
-    "main.c4c8109c.js.map": "/hexadecimal-converter/static/js/main.c4c8109c.js.map"
+    "main.ea96c821.js.map": "/hexadecimal-converter/static/js/main.ea96c821.js.map"
   },
   "entrypoints": [
-    "static/js/main.c4c8109c.js"
+    "static/js/main.ea96c821.js"
   ]
 }
