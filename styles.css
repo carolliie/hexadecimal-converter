@@ -21,18 +21,15 @@ body {
 
 .container h1 {
   font-size: 40px;
+  font-family: "Paytone One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 20px;
 }
 
 form {
   padding: 20px 0;
   position: relative;
-}
-
-.title {
-  font-family: "Paytone One", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  margin-bottom: 20px;
 }
 
 form select {
