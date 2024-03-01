@@ -102,7 +102,9 @@ Certifique-se de ter o Node.js instalado em seu sistema, pois ele inclui o npm (
 ### 2. Create React App (CRA)
 Utilize o `create-react-app` para criar uma estrutura inicial de projeto React.
 
-`npx create-react-app nome-do-projeto`
+```
+npx create-react-app nome-do-projeto
+```
 
 ### 3. Aplicação React criada, hora de testar!
 Digite `npm start` para testar a aplicação inicial fornecida pelo create-react-app. O comando criará um servidor que vai rodar a página no modo desenvolvedor, na URL http://localhost:3000 do browser.
@@ -123,7 +125,9 @@ As páginas são servidas a partir do domínio username.github.io ou de um domí
 
 Projetos simples, que contenham apenas Javascript, HTML e CSS, podem ser publicados com apenas o setup feito com o repositório.
 
+```
 Branch -> Settings -> Pages -> Depoly from a branch
+```
 
 ### Setup para aplicação React
 
@@ -143,34 +147,49 @@ Para a publicação do website no Github Pages, instala-se o `gh-pages`, um paco
     <li>Conta no Github</li>
 </ul>
 
-#### Etapas
+### Etapas
 
 1. Crie um repositório no Github
-</br>
+
 2. Crie um projeto React com </br>`npx create-react-app`
-</br>
+
 3. Entre na pasta criada
-</br>
+
 4. Instale o gh-pages (pacote npm) com </br>`$ npm install gh-pages --save-dev`
-</br>
+
 5. Adicione a propriedade `homepage` no `package.json` </br> Neste formato: 
-  `"name": "my-app",`
-  `"version": "0.1.0",`
- `"homepage": "https://{username}.github.io/{nome-do-repositorio}",`
-  `"private": true,`
-</br>
-6. Adicione um script de deploy no arquivo `package.json`</br> <ul><li>Insira uma propriedade de `predeploy` e uma propriedade de `deploy` nos scripts.</li><ul> </br> Neste formato:
-`"scripts": {`
-`"predeploy": "npm run build",`   
-`"deploy": "gh-pages -d build",`   
-`"start": "react-scripts start",`    
-`"build": "react-scripts build",`    
+  ```"name": "my-app",
+  "version": "0.1.0",
+ "homepage": "https://{username}.github.io/{nome-do-repositorio}",
+  "private": true,
+  ```
+
+6. Adicione um script de deploy no arquivo `package.json`</br> <ul><li>Insira uma propriedade de `predeploy` e uma propriedade de `deploy` nos scripts.</li><ul>
+
+Neste formato:
+```"scripts": {
+"predeploy": "npm run build",   
+"deploy": "gh-pages -d build",   
+"start": "react-scripts start",    
+"build": "react-scripts build",
+```    
 </ul>
-</br>
-7. Adicione um "remote" que aponte para o repositório Github </br> $ `git remote add origin https://github.com/{username}/{repo-name}.git`
-</br>
-8. Deploy do app React no GitHub Pages </br> `$ npm run deploy` ou </br> `$ npm run deploy -- -m "Deploy React app to GitHub Pages"`
-</br>
+
+7. Adicione um "remote" que aponte para o repositório Github
+```
+$ git remote add origin https://github.com/{username}/{repo-name}.git
+```
+
+8. Deploy do app React no GitHub Pages </br> 
+``` 
+$ npm run deploy
+``` 
+ou
+
+```
+$ npm run deploy -- -m "Deploy React app to GitHub Pages"
+```
+
 
 #### Fim!
 
