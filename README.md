@@ -7,9 +7,6 @@
 <img loading="lazy" src="https://img.shields.io/badge/GitHub%20Pages-222222?style=for-the-badge&logo=GitHub%20Pages&logoColor=white"/> 
 <img loading="lazy" src="https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white"/></p>
 
-
-Este repositório foi criado para publicação de um conversor de número hexadecimal/binário para decimal. Feito em React, com a linguagem Javascript, o projeto foi desenvolvido como forma de avaliação para a matéria de laboratório de programação.
-
 ## Conversão Hexadecimal
 
 A conversão hexadecimal é amplamente utilizada na programação e ciência da computação como uma forma mais compacta e legível de representar números binários. Hexadecimal é uma base-16, o que significa que utiliza 16 símbolos para representar valores, de 0 a 9 e de A a F (onde A representa 10, B representa 11, e assim por diante). Cada dígito hexadecimal é equivalente a quatro dígitos binários, facilitando a representação e leitura de grandes números binários.
@@ -126,7 +123,7 @@ As páginas são servidas a partir do domínio username.github.io ou de um domí
 Projetos simples, que contenham apenas Javascript, HTML e CSS, podem ser publicados com apenas o setup feito com o repositório.
 
 ```
-Branch -> Settings -> Pages -> Deploy from a branch
+Branch -> Settings -> Pages -> Depoly from a branch
 ```
 
 ### Setup para aplicação React
@@ -140,7 +137,6 @@ Para criar a aplicação React, é necessário o comando `create-react-app`, o q
 Para a publicação do website no Github Pages, instala-se o `gh-pages`, um pacote npm utilizado para fazer deploy no serviço web do Github.
 
 #### Requisitos
-
 <ul>
     <li>Possuir node e npm instalados</li>
     <li>Ter o Git instalado</li>
@@ -211,8 +207,8 @@ Para informações detalhadas sobre o setup e implementação, consulte as refer
 
 #### Links e vídeos
 
-<a href="https://www.theserverside.com/tip/Binary-and-hexadecimal-numbers-explained-for-developers">_Binary and hexadecimal numbers explained for developers_</a> By Bob Reselman
+<a href="https://www.theserverside.com/tip/Binary-and-hexadecimal-numbers-explained-for-developers">_Binary and hexadecimal numbers explained for developers_</a> by Bob Reselman
 
-<a href="https://create-react-app.dev/docs/getting-started">_Create React App_ </a> by Facebook Open Source
+<a href="https://create-react-app.dev/docs/getting-started">_Create React App_</a> by Facebook Open Source
 
 <a href="https://blog.logrocket.com/deploying-react-apps-github-pages/">_Deploying React apps to GitHub Pages_</a> by Nelson Michael
