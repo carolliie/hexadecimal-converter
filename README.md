@@ -1,20 +1,20 @@
 # hexadecimal-converter
 
-<img loading="lazy" src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"/>
+<p><img loading="lazy" src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"/>
 <img loading="lazy" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
 <img loading="lazy" src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white"/>
 <img loading="lazy" src="https://img.shields.io/badge/Node%20js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white">
 <img loading="lazy" src="https://img.shields.io/badge/GitHub%20Pages-222222?style=for-the-badge&logo=GitHub%20Pages&logoColor=white"/> 
-<img loading="lazy" src="https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white"/>
+<img loading="lazy" src="https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white"/></p>
 
 
 Este repositório foi criado para publicação de um conversor de número hexadecimal/binário para decimal. Feito em React, com a linguagem Javascript, o projeto foi desenvolvido como forma de avaliação para a matéria de laboratório de programação.
 
-### Conversão Hexadecimal
+## Conversão Hexadecimal
 
 A conversão hexadecimal é amplamente utilizada na programação e ciência da computação como uma forma mais compacta e legível de representar números binários. Hexadecimal é uma base-16, o que significa que utiliza 16 símbolos para representar valores, de 0 a 9 e de A a F (onde A representa 10, B representa 11, e assim por diante). Cada dígito hexadecimal é equivalente a quatro dígitos binários, facilitando a representação e leitura de grandes números binários.
 
-#### Principais Usos da Conversão Hexadecimal:
+### Principais Usos da Conversão Hexadecimal:
 
 Representação de Endereços de Memória: Em programação de baixo nível, como na linguagem de montagem, os endereços de memória são frequentemente expressos em hexadecimal para facilitar a leitura e manipulação.
 
@@ -24,11 +24,11 @@ Identificação de Bytes e Octetos: Em redes e protocolos de comunicação, ende
 
 Chaves e Hashes Criptográficos: Algoritmos criptográficos muitas vezes geram ou manipulam chaves, hashes ou identificadores únicos em formato hexadecimal.
 
-### Conversão Binária
+## Conversão Binária
 
 A conversão binária é a representação de números usando apenas os dígitos 0 e 1. Ela é a base fundamental do sistema de numeração utilizado pelos computadores, que operam em linguagem de máquina utilizando bits (0s e 1s). A conversão binária é essencial para entender o funcionamento interno dos computadores, como processadores realizam operações lógicas e arquivos são armazenados em formato binário.
 
-#### Principais Usos da Conversão Binária
+### Principais Usos da Conversão Binária
 
 Linguagem de Máquina: Todas as instruções executadas por um processador são representadas em linguagem de máquina, que utiliza código binário para indicar operações e operandos.
 
@@ -38,7 +38,7 @@ Redes de Computadores: Na comunicação entre dispositivos em redes, a informaç
 
 Operações Lógicas e Booleanas: A lógica binária é fundamental em operações lógicas, álgebra booleana e design de circuitos digitais.
 
-### Programação funcional x Programação funcional com React
+## Programação funcional x Programação funcional com React
 
 A programação funcional busca a transparência referencial, permitindo substituir uma expressão por seu valor sem alterar o comportamento do programa. Essa abordagem é suportada por linguagens como Haskell, Lisp, Scala e outras, mas também pode ser aplicada em linguagens de propósito geral como JavaScript e Python.
 
@@ -60,39 +60,54 @@ O código deste projeto é um componente React que cria um formulário de conver
 
 O componente exibe campos de entrada para o número binário ou hexadecimal, permite a seleção do tipo de número a ser convertido (binário ou hexadecimal) por meio de um menu suspenso (dropdown), e exibe o resultado da conversão em formato decimal.
 
-#### Vamos entender as principais partes do código:
+## Vamos entender as principais partes do código:
 
-#### useState:
+### useState:
 
 São utilizados hooks useState para criar quatro estados (binario, hexadecimal, decimal, selectedOption) que mantêm o estado atual dos campos de entrada e a opção selecionada.
 
-#### handleOptionChange:
+### handleOptionChange:
 
 Esta função é chamada quando a opção no menu suspenso é alterada, atualizando o estado selectedOption com o valor selecionado.
 converter:
 
 A função converter é acionada quando o botão "Converter" é clicado. Ela verifica qual tipo de conversão deve ser realizada (binário para decimal ou hexadecimal para decimal) e chama a função correspondente (binarioConverter ou hexadecimalConverter).
 
-#### hexadecimalConverter e binarioConverter:
+### hexadecimalConverter e binarioConverter:
 
 Estas funções convertem números hexadecimais e binários para decimais, respectivamente. O resultado da conversão é armazenado no estado decimal.
 
-#### JSX (HTML dentro do JavaScript):
+### JSX (HTML dentro do JavaScript):
 
 O código JSX renderiza os elementos do formulário, incluindo o título, o menu suspenso, os campos de entrada e o botão "Converter". Dependendo da opção escolhida (selectedOption), o componente renderiza um campo de entrada para binário ou hexadecimal.
 
-#### Resultados e readOnly:
+### Resultados e readOnly:
 
 O resultado da conversão é exibido em um campo de entrada de texto com a propriedade readOnly para impedir a edição direta pelo usuário.
 
-#### +++
+### +++
 
 Além disso, outros componentes também foram utilizados para serem renderizados na tela. Como o Footer, que possui o Copyright e o ano atual.
 
 
 ## React-setup
 
+Configurar um ambiente React envolve várias etapas essenciais para o desenvolvimento eficaz de uma aplicação web. 
 
+Aqui está um resumo das principais etapas para criar um setup básico para uma aplicação React.
+
+### 1. Node.js e npm
+Certifique-se de ter o Node.js instalado em seu sistema, pois ele inclui o npm (gerenciador de pacotes).
+
+### 2. Create React App (CRA)
+Utilize o `create-react-app` para criar uma estrutura inicial de projeto React.
+
+`npx create-react-app nome-do-projeto`
+
+### 3. Aplicação React criada, hora de testar!
+Digite `npm start` para testar a aplicação inicial fornecida pelo create-react-app. O comando criará um servidor que vai rodar a página no modo desenvolvedor, na URL http://localhost:3000 do browser.
+
+Para mais informações sobre aplicações em React, clique <a href="https://create-react-app.dev/docs/getting-started">aqui</a>.
 
 ## Github-pages setup
 
