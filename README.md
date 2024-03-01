@@ -123,7 +123,7 @@ As páginas são servidas a partir do domínio username.github.io ou de um domí
 Projetos simples, que contenham apenas Javascript, HTML e CSS, podem ser publicados com apenas o setup feito com o repositório.
 
 ```
-Branch -> Settings -> Pages -> Depoly from a branch
+Branch -> Settings -> Pages -> Deploy from a branch
 ```
 
 ### Setup para aplicação React
