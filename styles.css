@@ -48,7 +48,7 @@ form select {
 }
 
 form select:focus {
-  color: rgb(57, 54, 54);
+  color: rgba(252, 252, 252, 0.2);
 
 }
 
