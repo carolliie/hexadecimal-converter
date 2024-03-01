@@ -42,13 +42,13 @@ form select {
   display: block;
   text-align: center;
   font-size: 18px;
-  color: white;
+  color: rgba(91, 88, 88, 0.797);
   font-weight: 300;
   transition: color 0.3s; background-color: 0.3s;
 }
 
 form select:focus {
-  color: rgba(252, 252, 252, 0.2);
+  color: rgba(91, 88, 88, 0.797);
 
 }
 
@@ -58,7 +58,7 @@ form select option:hover {
 
 form input {
   border: 1px solid rgba(252, 252, 252, 0.4);
-  background-color: rgba(252, 252, 252, 0.2);
+  background-color: rgba(97, 93, 93, 0.801);
   width: 250px;
   border-radius: 3px;
   padding: 10px 15px;
