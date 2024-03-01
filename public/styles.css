@@ -31,7 +31,8 @@ form {
 }
 
 title h1 {
-  font-weight: bold;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bolder;
   margin-bottom: 20px;
 }
 
