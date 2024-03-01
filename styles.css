@@ -86,3 +86,7 @@ form button {
   width: 250px;
   font-size: 18px;
 }
+
+#svg {
+  margin-right: 5px;
+}
