@@ -57,7 +57,7 @@ O código deste projeto é um componente React que cria um formulário de conver
 
 O componente exibe campos de entrada para o número binário ou hexadecimal, permite a seleção do tipo de número a ser convertido (binário ou hexadecimal) por meio de um menu suspenso (dropdown), e exibe o resultado da conversão em formato decimal.
 
-## Vamos entender as principais partes do código - <a href="src/components/Footer.jsx">Footer.jsx</a>
+## Vamos entender as principais partes do código - <a href="src/components/Form.jsx">Form.jsx</a>
 
 ### useState:
 
