@@ -40,32 +40,34 @@ function Form() {
   }
 
   return (
-    <form className="form">
+    <div>
       <h1 class="title">Conversor Hexadecimal/Binário</h1>
-      <select value={selectedOption} onChange={handleOptionChange}>
-        <option value="Binario">Binário</option>
-        <option value="Hexadecimal">Hexadecimal</option>
-      </select>
-      {selectedOption === "Binario" ? (  // if ...
-        <input
-          type="text"
-          placeholder="Binário"
-          value={binario}
-          onChange={(e) => setBinario(e.target.value)}
-        />
-      ) : (                               // else ...
-        <input
-          type="text"
-          placeholder="Hexadecimal"
-          value={hexadecimal}
-          onChange={(e) => setHexadecimal(e.target.value)}
-        />
-      )}
-      <input type="text" placeholder="Decimal" value={decimal} readOnly />
-      <button type="button" onClick={converter}>
-        Converter
-      </button>
-    </form>
+      <form className="form">
+        <select value={selectedOption} onChange={handleOptionChange}>
+          <option value="Binario">Binário</option>
+          <option value="Hexadecimal">Hexadecimal</option>
+        </select>
+        {selectedOption === "Binario" ? (  // if ...
+          <input
+            type="text"
+            placeholder="Binário"
+            value={binario}
+            onChange={(e) => setBinario(e.target.value)}
+          />
+        ) : (                               // else ...
+          <input
+            type="text"
+            placeholder="Hexadecimal"
+            value={hexadecimal}
+            onChange={(e) => setHexadecimal(e.target.value)}
+          />
+        )}
+        <input type="text" placeholder="Decimal" value={decimal} readOnly />
+        <button type="button" onClick={converter}>
+          Converter
+        </button>
+      </form>
+    </div>
   );
 }
 
