@@ -85,7 +85,7 @@ form button {
 form button:hover {
   background-color: #30605f;
   color: white;
-  transition: color 0.3s; background-color: 0.3s;
+  transition: color 0.3s, background-color 0.3s;
 }
 
 #svg {
