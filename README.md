@@ -118,7 +118,7 @@ Ele permite que desenvolvedores publiquem documentações, projetos pessoais, po
 
 As páginas são servidas a partir do domínio username.github.io ou de um domínio customizado, facilitando a exposição e compartilhamento de projetos online.
 
-### Setup
+## Setup
 
 Projetos simples, que contenham apenas Javascript, HTML e CSS, podem ser publicados com apenas o setup feito com o repositório.
 
@@ -126,7 +126,7 @@ Projetos simples, que contenham apenas Javascript, HTML e CSS, podem ser publica
 Branch -> Settings -> Pages -> Deploy from a branch
 ```
 
-### Setup para aplicação React
+## Setup para aplicação React
 
 Para o setup deste projeto, por possuir o framework React, foi necessário outra forma de configuração do GitHub Pages para o deploy da página web.
 
@@ -193,7 +193,7 @@ Para a publicação do website no Github Pages, instala-se o `gh-pages`, um paco
     ```
 
 
-#### Fim!
+## Fim!
 
 Assim, o GitHub Pages vai detectar automaticamente os commits publicados pela branch gh-pages do repositrio.
 
