@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: 'Helvetica Neue', sans-serif;
   font-weight: 300;
 }
 
@@ -89,6 +90,10 @@ form button:hover {
   background-color: #30605f;
   color: white;
   transition: color 0.3s, background-color 0.3s;
+}
+
+footer {
+  font-family: 'Helvetica Neue', sans-serif;
 }
 
 #svg {
