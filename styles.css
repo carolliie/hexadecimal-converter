@@ -44,16 +44,17 @@ form select {
   font-size: 18px;
   color: white;
   font-weight: 300;
-  transition: color 0.3s; background-color: 0.3s;
+  transition: color 0.3s, background-color 0.3s;
 }
 
 form select:focus {
   color: white;
-
+  transition: color 0.3s;
 }
 
 form select option:hover {
-  background-color: #50a3a2; 
+  background-color: #50a3a2;
+  transition: color 0.3s, background-color 0.3s;
 }
 
 form input {
