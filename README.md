@@ -130,13 +130,13 @@ Branch -> Settings -> Pages -> Deploy from a branch
 
 Para o setup deste projeto, por possuir o framework React, foi necessário outra forma de configuração do GitHub Pages para o deploy da página web.
 
-#### Início
+### Início
 
 Para criar a aplicação React, é necessário o comando `create-react-app`, o qual desenvolve um projeto-base.
 
 Para a publicação do website no Github Pages, instala-se o `gh-pages`, um pacote npm utilizado para fazer deploy no serviço web do Github.
 
-#### Requisitos
+### Requisitos
 <ul>
     <li>Possuir node e npm instalados</li>
     <li>Ter o Git instalado</li>
@@ -153,38 +153,44 @@ Para a publicação do website no Github Pages, instala-se o `gh-pages`, um paco
 
 4. Instale o gh-pages (pacote npm) com </br>`$ npm install gh-pages --save-dev`
 
-5. Adicione a propriedade `homepage` no `package.json` </br> Neste formato: 
-  ```"name": "my-app",
-  "version": "0.1.0",
- "homepage": "https://{username}.github.io/{nome-do-repositorio}",
-  "private": true,
-  ```
+5. Adicione a propriedade `homepage` no `package.json` 
+    Neste formato:
+     
+    ```
+    "name": "my-app",
+    "version": "0.1.0",
+    "homepage": "https://{username}.github.io/  {nome-do-repositorio}",
+    "private": true,
+    ```
 
-6. Adicione um script de deploy no arquivo `package.json`</br> <ul><li>Insira uma propriedade de `predeploy` e uma propriedade de `deploy` nos scripts.</li><ul>
+6. Adicione um script de deploy no arquivo `package.json` 
 
-Neste formato:
-```"scripts": {
-"predeploy": "npm run build",   
-"deploy": "gh-pages -d build",   
-"start": "react-scripts start",    
-"build": "react-scripts build",
-```    
-</ul>
+    - Insira uma propriedade de `predeploy` e uma propriedade de `deploy` nos scripts.
+    Neste formato:
+
+      ```
+      "scripts": {
+      "predeploy": "npm run build",   
+      "deploy": "gh-pages -d build",   
+      "start": "react-scripts start",    
+      "build": "react-scripts build",
+      ```    
+
 
 7. Adicione um "remote" que aponte para o repositório Github
-```
-$ git remote add origin https://github.com/{username}/{repo-name}.git
-```
+    ```
+    $ git remote add origin https://github.com/{username}/{repo-name}.git
+    ```
 
 8. Deploy do app React no GitHub Pages </br> 
-``` 
-$ npm run deploy
-``` 
-ou
+    ``` 
+    $ npm run deploy
+    ``` 
+    ou
 
-```
-$ npm run deploy -- -m "Deploy React app to GitHub Pages"
-```
+    ```
+    $ npm run deploy -- -m "Deploy React app to GitHub Pages"
+    ```
 
 
 #### Fim!
