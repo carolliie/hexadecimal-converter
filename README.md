@@ -204,7 +204,7 @@ Ao detectar a branch, irá acontecer a distribuição do projeto React para qual
 
 Para instalação melhor explicada e exemplos, confira este tutorial: <a href="https://blog.logrocket.com/deploying-react-apps-github-pages/">Deploying React apps to GitHub Pages</a>
 
-### Conclusão e Referências
+## Conclusão e Referências
 
 Em conclusão, este projeto oferece um conversor de números hexadecimais/binários para decimais, desenvolvido em React, utilizando conceitos de programação funcional. Ele explora a importância da conversão hexadecimal e binária na programação, destacando seus usos comuns. 
 
