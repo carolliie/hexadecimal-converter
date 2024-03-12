@@ -66,7 +66,8 @@ São utilizados hooks useState para criar quatro estados (binario, hexadecimal, 
 ### handleOptionChange:
 
 Esta função é chamada quando a opção no menu suspenso é alterada, atualizando o estado selectedOption com o valor selecionado.
-converter:
+
+### converter:
 
 A função converter é acionada quando o botão "Converter" é clicado. Ela verifica qual tipo de conversão deve ser realizada (binário para decimal ou hexadecimal para decimal) e chama a função correspondente (binarioConverter ou hexadecimalConverter).
 
