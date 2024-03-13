@@ -41,7 +41,7 @@ A programação funcional busca a transparência referencial, permitindo substit
 
 O paradigma de programação funcional com React refere-se à aplicação de conceitos e práticas da programação funcional ao desenvolver aplicações usando o framework para Web. Embora React não seja um framework com linguagem de programação funcional pura, ele incorpora e encoraja certos princípios dessa abordagem.
 
-O projeto tem como base as definições de programação com o paradigma funcional, sendo os principais conceitos aplicados: <a href="https://medium.com/@axthebaldi/lambda-calculus-com-javascript-5db88c3b45a">Funções Anônimas (Lambda)</a>, <a href="https://www.educative.io/answers/what-are-first-class-vs-higher-order-functions-in-javascript">First-Class e Higher-Order Functions</a>, <a href="https://rfcosta85.medium.com/descobrindo-javascript-composição-de-funções-2b658a639fd8">e Composição de Funções</a>.
+O projeto tem como base as definições de programação com o paradigma funcional, sendo os principais conceitos aplicados: <a href="https://medium.com/@axthebaldi/lambda-calculus-com-javascript-5db88c3b45a">Funções Anônimas (Lambda)</a>, <a href="https://www.educative.io/answers/what-are-first-class-vs-higher-order-functions-in-javascript">First-Class e Higher-Order Functions</a> e<a href="https://rfcosta85.medium.com/descobrindo-javascript-composição-de-funções-2b658a639fd8"> Composição de Funções</a>.
 
 ## O que seria React?
 
